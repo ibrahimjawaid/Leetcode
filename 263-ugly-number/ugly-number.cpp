@@ -12,11 +12,7 @@ public:
     }
 
     bool isUgly(int n) {
-        
         if (n < 1) return false;
-
-        if (n == 1) return true;
-
         return uglyRecurse(n);
     }
 };
